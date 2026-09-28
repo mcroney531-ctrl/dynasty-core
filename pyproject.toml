@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynasty-core"
+version = "0.1.0"
+description = "Shared provider/domain primitives (Sleeper, ESPN, FantasyCalc) for Ddreportcards and scoutcap."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1,<0.29",
+]
+
+[project.urls]
+Repository = "https://github.com/mcroney531-ctrl/dynasty-core"
+
+[tool.setuptools]
+packages = ["dynasty_core"]
